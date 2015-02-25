@@ -1,3 +1,6 @@
+html{
+    background-image: url("images/book.jpg");
+}
 img {
     max-height: 550px;
     width: auto;
@@ -72,4 +75,9 @@ img {
 .batman {
     max-width: 500px;
     margin-left: 150px;
+}
+
+.quiz-frame {
+    height: 550px;
+    width: 300px;
 }
