@@ -104,3 +104,4 @@ Want to do a pull request?
 
 Great! New ideas are more than welcome, but please check the [Pull Request Guidelines](https://github.com/viljamis/ResponsiveSlides.js/wiki/Pull-Request-Guidelines) first before doing so.
 # slide-project
+# slide-project
