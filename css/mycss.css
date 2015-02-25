@@ -1,0 +1,75 @@
+img {
+    max-height: 550px;
+    width: auto;
+}
+.background1 {
+    background-color: red;
+}
+.background3{
+    background-color: blue;
+    min-height: 100px;
+}
+#slider4-pager a {
+  display: inline-block;
+}
+
+#slider4-pager img {
+  float: left;
+}
+
+#slider4-pager .rslides_here a {
+  background: transparent;
+  box-shadow: 0 0 0 2px #666;
+}
+
+#slider4-pager a {
+  padding: 0;
+}
+.rslides{
+    max-height: 550px;
+}
+
+.action {
+    max-width: 500px;
+    margin-left: 150px;
+}
+
+.superman {
+    max-width: 500px;
+    margin-left: 150px;
+}
+
+.daredevil {
+    max-width: 500px;
+    margin-left: 150px;
+}
+
+.end-gold {
+    max-width: 500px;
+    margin-left: 150px;
+}
+
+.four {
+    max-width: 500px;
+    margin-left: 150px;
+}
+
+.silverage2 {
+    max-width: 500px;
+    margin-left: 150px;
+}
+
+.green {
+    max-width: 500px;
+    margin-left: 150px;
+}
+
+.watchmen {
+    max-width: 500px;
+    margin-left: 150px;
+}
+
+.batman {
+    max-width: 500px;
+    margin-left: 150px;
+}

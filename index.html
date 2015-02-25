@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Comic History</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="css/responsiveslides.css">
+  <link rel="stylesheet" href="css/demo.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script src="js/responsiveslides.min.js"></script>
+  <script type="text/javascript" src="../../extras/modernizr.2.5.3.min.js"></script>
+  <script>
+    // You can also use "$(window).load(function() {"
+    $(function () {
+
+      // Slideshow 1
+     /* $("#slider1").responsiveSlides({
+        maxwidth: 800,
+        speed: 800
+      });*/
+
+      // Slideshow 2
+      $("#slider2").responsiveSlides({
+        auto: false,
+        pager: true,
+        speed: 300,
+        maxwidth: 540
+      });
+
+      // Slideshow 3
+    /*  $("#slider3").responsiveSlides({
+        manualControls: '#slider3-pager',
+        maxwidth: 540
+      }); */
+
+      // Slideshow 4
+      $("#slider4").responsiveSlides({
+        auto: false,
+        pager: false,
+        nav: true,
+        speed: 500,
+        namespace: "callbacks",
+        before: function () {
+          $('.events').append("<li>before event fired.</li>");
+        },
+        after: function () {
+          $('.events').append("<li>after event fired.</li>");
+        }
+      });
+
+    });
+  </script>
+</head>
+<body>
+  <div> 
+    <h1>A History of Comics:</h1>
+    <h2>An American Tradition</h2>
+  </div>
+    <div id="wrapper">
+
+
+    <!-- Slideshow 1 -->
+ <!--   <ul class="rslides" id="slider1">
+      <li><img src="images/1.jpg" alt=""></li>
+      <li><img src="images/2.jpg" alt=""></li>
+      <li><img src="images/3.jpg" alt=""></li>
+    </ul> -->
+
+
+
+    <!-- Slideshow 2 -->
+  <!-- <ul class="rslides" id="slider2">
+      <li><a href="#"><img src="images/1.jpg" alt=""></a></li>
+      <li><a href="#"><img src="images/2.jpg" alt=""></a></li>
+      <li><a href="#"><img src="images/3.jpg" alt=""></a></li>
+    </ul> -->
+
+
+
+    <!-- Slideshow 3 -->
+ <!--   <ul class="rslides" id="slider3">
+      <li><img src="images/1.jpg" alt=""></li>
+      <li><img src="images/2.jpg" alt=""></li>
+      <li><img src="images/3.jpg" alt=""></li>
+    </ul> -->
+
+    <!-- Slideshow 3 Pager -->
+ <!--   <ul id="slider3-pager">
+      <li><a href="#"><img src="images/1_thumb.jpg" alt=""></a></li>
+      <li><a href="#"><img src="images/2_thumb.jpg" alt=""></a></li>
+      <li><a href="#"><img src="images/3_thumb.jpg" alt=""></a></li>
+    </ul> -->
+
+
+
+    <!-- Slideshow 4 -->
+    <div class="callbacks_container">
+      <ul class="rslides" id="slider4">
+        <li>
+          <img src="images/comics.jpg" alt="">
+          <p class="caption">Comic books have been a prominent form of American media since the late 1930's.  The evolution of comic art and content provides a unique perspective on American culture.</p>
+        </li>
+        <li>
+          <img src="images/yellow-kid.jpg" alt="">
+          <p class="caption">Modern comics first appeared in the pages of New York World newspaper. Hogan’s Alley was the first full-color, full-page comic featuring a weekly recurring main character, named the Yellow-Kid.</p>
+        </li>
+        <li>
+          <img src="images/action.jpg" class="action" alt="">
+          <p class="caption">The Golden age of comics started in 1938 when the first comic book with completely original material was published. Action Comics #1, written by Jerry Siegel and Joe Shuster, featured the first appearance of Superman. </p>
+        </li>
+        <li>
+          <img src="images/superman.gif" class="superman" alt="">
+          <p class="caption">Superman achieved instant commercial success. America has always been a nation of immigrants. Superman’s status as the ultimate immigrant, the last member of an alien species seeking refuge on Earth, had mass appeal to America’s immigrant population.</p>
+        </li>
+        <li>
+          <img src="images/daredevil.jpg" class="daredevil" alt="">
+          <p class="caption">World War II also spurred the development of comic books. A large cast of super human character sprouted up to fight the Nazi menace throughout the late 30’s and 40’s. </p>
+        </li>
+        <li>
+          <img src="images/end-gold.jpg" class="end-gold" alt="">
+          <p class="caption">The golden age of comics came to an end along with World War II. Once the Nazis had been defeated using super human powers to combat more ordinary problems seemed like overkill.</p>
+        </li>
+        <li>
+          <img src="images/four.jpg" class="four" alt="">
+          <p class="caption">The Comic industry had a resurgence in 1956, with the creation of the Fantastic Four. They had real problems. They had issues with money, they fought amongst each other, and they had real emotional problems. The Silver age began to display many superheroes that had real defects.</p>
+        </li>
+        <li>
+          <img src="images/silverage2.jpg" class="silverage2" alt="">
+          <p class="caption">Comic Books in the Silver age even started moving against mainstream ideological values. They began to question the motives behind the Vietnam War. There was even a fictionalization of the Water Gate Scandal in a Captain America story arc.</p>
+        </li>
+        <li>
+          <img src="images/green.jpg" class="green" alt="">
+          <p class="caption">The 1970’s started the bronze age of comics, which advanced comics even more as a medium with the creation of stories, which examined drug abuse, pollution, poverty, and racism. </p>
+        </li>
+        <li>
+          <img src="images/watchmen.jpg" class="watchmen" alt="">
+          <p class="caption">The 1980’s brought the modern age of comics. Books such as Watchmen brought critical acclaim to the world of comics by deconstructing the genre, and elevating the standing at which comics were held by society. </p>
+        </li>
+        <li>
+          <img src="images/batman.jpg" class="batman" alt="">
+          <p class="caption">The massive increase in popularity comics have received from television and movie success in the modern age has brought comics into the mainstream. </p>
+        </li>
+      </ul>
+    </div>
+    
+    </div>
+    
+   
+  
+</body>
+</html>
