@@ -32,21 +32,21 @@ img {
     max-height: 550px;
 }
 
-.action {
-    max-width: 500px;
-    margin-left: 150px;
-}
-
+/*.action {
+   max-width: 500px;
+   margin-left: auto;
+   margin-right: auto;  
+}*/
+/*
 .superman {
     max-width: 500px;
     margin-left: 150px;
 }
-
-.daredevil {
-    max-width: 500px;
-    margin-left: 150px;
-}
-
+*/
+/*.daredevil {
+    
+}*/
+/*
 .end-gold {
     max-width: 500px;
     margin-left: 150px;
@@ -80,4 +80,4 @@ img {
 .quiz-frame {
     height: 550px;
     width: 300px;
-}
+}*/

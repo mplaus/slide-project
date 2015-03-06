@@ -25,12 +25,13 @@ img {
 #slider4-pager a {
   padding: 0;
 }
+
 .rslides{
     max-height: 550px;
 }
-
+/*
 .action {
-    max-width: 500px;
+    max-width: 100%;
     margin-left: 150px;
 }
 
@@ -40,8 +41,10 @@ img {
 }
 
 .daredevil {
+    position: relative;
     max-width: 500px;
-    margin-left: 150px;
+    margin-left: 15%;
+    width: auto;
 }
 
 .end-gold {
@@ -72,4 +75,4 @@ img {
 .batman {
     max-width: 500px;
     margin-left: 150px;
-}
+}*/
